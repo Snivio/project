@@ -1,10 +1,10 @@
 import tweepy
 import time
 
-key1 = "VSX6nhq60PKprHFwZdDr8H3Uj"
-key2 = "ufYxF2mULObpMeVUPdTeT8Stg5409DWO75UQ9QvGaNg0QPVYc3"
-key3 = "292170020-brwmXdVgn89cfAMj8m41lJSklNiHirxpKmjVj1iM"
-key4 = "yIGQS8dB3CVRKsCqDNfnp16G1uFgsIKATj6ErUql2jy3l"
+key1 = "******************"
+key2 = "******************"
+key3 = "******************"
+key4 = "******************"
 
 accountvar = raw_input("Account name: ")
 
