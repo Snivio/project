@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <script>
+        var i = 1;
+        var a = setInterval(time, 100);
+
+        function time() {
+            i++;
+            if (i % 3 == 0) {
+                document.write("<td>[" + i + "Earth" + "]</td> &nbsp &nbsp");
+            }
+            if (i % 5 == 0) {
+                document.write("<td>[" + i + "Jupiter" + "]</td> &nbsp &nbsp");
+            }
+            if (i % 9 == 0) {
+                document.write("<td>[" + i + "Pluto" + "]</td> &nbsp &nbsp");
+            }
+            if (i === 100) clearInterval(a);
+            else {
+                document.write("&nbsp" + i + "&nbsp");
+            }
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
